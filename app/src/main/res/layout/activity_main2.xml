@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+
+        android:id="@+id/txt2"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="94dp"
+        android:hint="@string/pesan_yang_anda_terima" />
+
+    <Button
+        android:onClick="pinda2"
+        android:id="@+id/kirim2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt2"
+        android:layout_alignLeft="@+id/txt2"
+        android:layout_alignEnd="@+id/txt2"
+        android:layout_alignRight="@+id/txt2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-14dp"
+        android:layout_marginLeft="-14dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="-14dp"
+        android:layout_marginRight="-14dp"
+        android:text="@string/push2" />
+</RelativeLayout>

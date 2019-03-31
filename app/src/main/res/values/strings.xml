@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AmbilData</string>
+    <string name="aplikasi_pindah_halaman">Aplikasi Pindah Halaman</string>
+    <string name="push">PUSH</string>
+    <string name="push2">PUSH2</string>
+    <string name="pesan_yang_anda_terima">Pesan yang anda terima</string>
+</resources>
